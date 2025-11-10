@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\ACER\OneDrive\Documents\Tư duy lập trình\Git\MainWindow.ui'
+# Form implementation generated from reading ui file 'D:\tuduylaptrinh\git\MainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.9.1
 #
@@ -46,13 +46,13 @@ class Ui_MainWindow(object):
         self.pushButtonCalculate = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButtonCalculate.setGeometry(QtCore.QRect(170, 370, 93, 28))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:\\Users\\ACER\\OneDrive\\Documents\\Tư duy lập trình\\Git\\image/7257624_calculate_calculator_math_calculation_icon.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("D:\\tuduylaptrinh\\git\\image/7257624_calculate_calculator_math_calculation_icon.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonCalculate.setIcon(icon)
         self.pushButtonCalculate.setObjectName("pushButtonCalculate")
         self.pushButtonClose = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButtonClose.setGeometry(QtCore.QRect(400, 370, 93, 28))
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\ACER\\OneDrive\\Documents\\Tư duy lập trình\\Git\\image/1398917_circle_close_cross_incorrect_invalid_icon.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("D:\\tuduylaptrinh\\git\\image/1398917_circle_close_cross_incorrect_invalid_icon.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonClose.setIcon(icon1)
         self.pushButtonClose.setObjectName("pushButtonClose")
         self.label_6 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -66,9 +66,15 @@ class Ui_MainWindow(object):
         self.label_8.setGeometry(QtCore.QRect(250, 290, 101, 16))
         self.label_8.setText("")
         self.label_8.setObjectName("label_8")
+        self.lineEditBMI = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.lineEditBMI.setGeometry(QtCore.QRect(240, 240, 111, 22))
+        self.lineEditBMI.setObjectName("lineEditBMI")
+        self.lineEditHeight_3 = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.lineEditHeight_3.setGeometry(QtCore.QRect(240, 280, 111, 22))
+        self.lineEditHeight_3.setObjectName("lineEditHeight_3")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 18))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
